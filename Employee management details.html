@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management System</title>
+
+    <style>
+        /* 1. UNIVERSAL SELECTOR - applies to every element */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* 2. ELEMENT SELECTOR */
+        body {
+            background-color: #eef1f5;
+            padding: 20px;
+        }
+
+        /* 3. ID SELECTOR - unique elements */
+        #header {
+            background-color: #1f2a5c;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+        }
+
+        #header p {
+            font-size: 12px;
+            margin-top: 5px;
+        }
+
+        #footer {
+            background-color: #1f2a5c;
+            color: white;
+            text-align: center;
+            padding: 8px;
+            font-size: 12px;
+            border-radius: 6px;
+            margin-top: 20px;
+        }
+
+        /* 4. GROUP SELECTOR - same style for multiple elements */
+        h1, h2 {
+            text-align: center;
+            letter-spacing: 1px;
+        }
+
+        h2 {
+            color: #1a4fd6;
+            margin-bottom: 15px;
+        }
+
+        /* 5. CLASS SELECTOR - reusable style */
+        .employee-card {
+            background-color: white;
+            border: 1px solid #c5cbd6;
+            border-radius: 6px;
+            padding: 15px;
+            margin: 0 auto 15px auto;
+            width: 80%;
+        }
+
+        .employee-card h3 {
+            color: #b3202a;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 6px;
+            margin-bottom: 10px;
+        }
+
+        .employee-card p {
+            font-size: 14px;
+            margin: 6px 0;
+            color: #333;
+        }
+
+        .label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="header">
+        <h1>EMPLOYEE MANAGEMENT SYSTEM</h1>
+        <p>Employee Information Portal</p>
+    </div>
+
+    <h2>Employee Details</h2>
+
+    <div class="employee-card">
+        <h3>Ravi Kumar</h3>
+        <p><span class="label">Employee ID:</span> EMP101</p>
+        <p><span class="label">Designation:</span> Software Developer</p>
+        <p><span class="label">Department:</span> Information Technology</p>
+        <p><span class="label">Salary:</span> ₹45,000</p>
+    </div>
+
+    <div class="employee-card">
+        <h3>Priya Sharma</h3>
+        <p><span class="label">Employee ID:</span> EMP102</p>
+        <p><span class="label">Designation:</span> HR Manager</p>
+        <p><span class="label">Department:</span> Human Resources</p>
+        <p><span class="label">Salary:</span> ₹55,000</p>
+    </div>
+
+    <div id="footer">
+        &copy; 2026 Employee Management System
+    </div>
+
+</body>
+</html>
